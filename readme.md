@@ -128,6 +128,17 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ## **Stashing Changes**
 #### Whenever you work on something you want to save your changes without making any commit without making any history in a project and whenever i need that project or work i can get it back on my workspace. 
 
+```
+git stash
+
+PS C:\Users\Admin\Workspace\Git_Github> git stash
+Saved working directory and index state WIP on master: 400294f Just a sample file created
+PS C:\Users\Admin\Workspace\Git_Github> git status
+On branch master
+nothing to commit, working tree clean
+```
+
+
 
 
 
