@@ -492,7 +492,7 @@ after hitting the command you might receive an option of pick along with the com
 
 ---
 
-#### Referred from [Kunal Kushwaha Tutorials]
+#### Creds: Referred from [Kunal Kushwaha Tutorials]
 
 
 
