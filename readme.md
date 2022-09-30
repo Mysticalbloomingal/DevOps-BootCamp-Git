@@ -437,6 +437,12 @@ Fetching upstream
 git reset --hard upstream 
 ```
 
+## **Squashing Commits**
+#### Squashing allows you to combine multiple commits in your branch's history into a single commit. This can help keep your repository's history more readable and understandable.
+
+```
+git 
+
 
 
 
