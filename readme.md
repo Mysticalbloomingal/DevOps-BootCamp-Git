@@ -311,6 +311,7 @@ Example:
 PS C:\Users\Admin\Workspace\Git_Github> git merge feature
 Already up to date.
 ```
+## **Pushingnew changes to master branch**
 
 
 
