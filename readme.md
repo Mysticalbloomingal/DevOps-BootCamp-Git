@@ -311,7 +311,26 @@ Example:
 PS C:\Users\Admin\Workspace\Git_Github> git merge feature
 Already up to date.
 ```
-## **Pushingnew changes to master branch**
+## **Pushing new changes to master branch**
+```
+git push origin <branch-name>
+
+Example: 
+PS C:\Users\Admin\Workspace\Git_Github> git push origin master  
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 347 bytes | 347.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0        
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
+   78a992c..f694224  master -> master
+```
+
+## **Why Fork, and How to Fork?**
+
+
 
 
 
