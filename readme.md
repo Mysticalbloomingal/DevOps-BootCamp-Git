@@ -374,6 +374,45 @@ upstream        https://github.com/Mysticalbloomingal/sample.git (push)
 
 ## **Never Commit on Main branch & Creating our first pull request**
 
+```
+git push origin <branch-name>
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git push origin master 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.    
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 851 bytes | 851.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
+   1df39e9..2bbf948  master -> master
+```
+## **Removing a commit from the pull request by force pushing to it**
+
+```
+git reset <commit-id>
+
+then, check the status it will be unstaged
+
+git status
+
+then,
+git add .
+git stash 
+
+then,
+git log
+
+the commit is gone from local
+```
+#### need to remove commit from remote aswell
+```
+git push origin <branch> -f
+```
+
 
 
 
