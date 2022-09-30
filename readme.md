@@ -218,8 +218,8 @@ git stash clear
 #### Hosting our project on Github, and share it with other people through out the world. 
 #### Steps in order to create a new project and host it on Git
 
-1. Creating a new repo on Git
-2. Connecting Remote Repo to Local Repo or or push an existing repository from the command line
+1. **Creating a new repo on Git**
+2. **Connecting Remote Repo to Local Repo or or push an existing repository from the command line**
 
 ```
 git remote add origin <url>
@@ -242,11 +242,21 @@ origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (push)
 
 which means it will display all the url which are attached to the project. 
 ```
-3. Pushing local changes to remote repository.
+3. **Pushing local changes to remote repository.**
+#### push the commits in the local branch named master to the remote named origin
 ```
 git push origin <branch>
-git push origin 
 
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git push origin master 
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Total 14 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
+ * [new branch]      master -> master
 ```
 
 
