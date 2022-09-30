@@ -329,6 +329,25 @@ To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
 ```
 
 ## **Why Fork, and How to Fork?**
+#### Forking is a git clone operation executed on a server copy of a projects repo. A Forking Workflow is often used in conjunction with a Git hosting service like Bitbucket.
+
+## **Cloning the Forked project to local**
+```
+git clone <url>
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git clone https://github.com/Mysticalbloomingal/DevOps-Tools-Practics.git
+Cloning into 'DevOps-Tools-Practics'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 23 (delta 1), reused 21 (delta 1), pack-reused 0
+Receiving objects: 100% (23/23), 5.62 KiB | 261.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Here you can see that after running the command you will get a copy of your project from github to your local system
+```
 
 
 
