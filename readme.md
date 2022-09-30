@@ -1,4 +1,4 @@
-# **Git & Github from Beginners Level**
+# **Git & Github from Beginners Level** 
 ## **Introduction**
 #### It will help you with using Git & GitHub for your personal projects and contributing to Open Source, with no prerequisites, in an easy to understand language.It starts from the very basics of Git & GitHub, covering all the essential commands, including concepts such as branching, pull requests, forking, etc. We also cover other concepts such as squashing, resolving merge conflicts, keeping your code in sync, and more.
 
@@ -489,6 +489,10 @@ after hitting the command you might receive an option of pick along with the com
 ## **Merge conflicts and how to resolve them?**
 
 #### This is the site in order to [Know more about Git Merge](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Creating%20a%20merge%20conflict&text=Create%20a%20new%20directory%20named,the%20repo%20and%20commit%20it.)
+
+---
+
+#### Referred from [Kunal Kushwaha Tutorials](https://github.com/kunal-kushwaha)
 
 
 
