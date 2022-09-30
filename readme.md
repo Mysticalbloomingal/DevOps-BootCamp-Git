@@ -299,7 +299,7 @@ PS C:\Users\Admin\Workspace\Git_Github> git checkout master
 Switched to branch 'master'
 ```
 
-## **merging branch to main**
+## **Merging branch to main**
 
 #### Once your code and workstuff is finalized you can merge your code with other users so that everybody can access it
 
@@ -412,6 +412,34 @@ the commit is gone from local
 ```
 git push origin <branch> -f
 ```
+
+## **Merging the Pull Request**
+
+#### On GitHub.com, navigate to the main page of the repository. Under your repository name, click Pull requests. In the "Pull Requests" list, click the pull request you would like to add to a merge queue. Click Merge when ready to add the pull request to the merge queue.
+
+## **making forked project even with main project**
+#### git fetch --prune is the best utility for cleaning outdated branches. It will connect to a shared remote repository remote and fetch all remote branch refs. It will then delete remote refs that are no longer in use on the remote repository.
+
+```
+git fetch --all --prune
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git fetch --all --prune
+Fetching origin
+From https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git
+ * [new branch]      feature    -> origin/feature
+Fetching upstream
+```
+#### You can reset your local master branch to the upstream version and push it to your origin repository. (You can define the original repo as "upstream" with git remote add upstream /url/to/original/repo .) It should probably be git reset --hard upstream/master to reset the working directory, too.
+
+```
+git reset --hard upstream 
+```
+
+
+
+
 
 
 
