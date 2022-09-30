@@ -349,6 +349,34 @@ Resolving deltas: 100% (1/1), done.
 Here you can see that after running the command you will get a copy of your project from github to your local system
 ```
 
+## **What is Upstream and adding it to local**
+
+#### In the git world, upstream refers to the original repo or a branch. For example, when you clone from Github, the remote Github repo is upstream for the cloned local copy.
+
+```
+git remote add upstream <url>
+
+Example:
+PS C:\Users\Admin\Workspace\Git_Github> git remote add upstream https://github.com/Mysticalbloomingal/sample.git
+
+PS C:\Users\Admin\Workspace\Git_Github> git remote -v
+origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (fetch)
+origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (push) 
+upstream        https://github.com/Mysticalbloomingal/sample.git (fetch)     
+upstream        https://github.com/Mysticalbloomingal/sample.git (push)   
+```
+
+
+## **What is a Pull Request?**
+#### Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+#### Or simply you can say that Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
+
+## **Never Commit on Main branch & Creating our first pull request**
+
+
+
+
 
 
 
