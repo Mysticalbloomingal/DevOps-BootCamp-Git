@@ -299,6 +299,20 @@ PS C:\Users\Admin\Workspace\Git_Github> git checkout master
 Switched to branch 'master'
 ```
 
+## **merging branch to main**
+
+#### Once your code and workstuff is finalized you can merge your code with other users so that everybody can access it
+
+```
+git merge <branch-name>
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git merge feature
+Already up to date.
+```
+
+
 
 
 
