@@ -258,7 +258,12 @@ remote: Resolving deltas: 100% (5/5), done.
 To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
  * [new branch]      master -> master
 ```
+## **What are branches**
+#### A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
 
+## **Use of Branches**
+#### When your working on a new feature or resolving a bug always create a seperate branch. 
+#### **Note: You should never commit on a main branch**
 
 
 
