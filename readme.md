@@ -265,6 +265,15 @@ To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
 #### When your working on a new feature or resolving a bug always create a seperate branch. 
 #### **Note: You should never commit on a main branch**
 
+## **Making a new Branch and Swicthing to it (Learn Branching)**
+
+```
+git branch <branch-name>
+
+Example:
+PS C:\Users\Admin\Workspace\Git_Github> git branch feature 
+```
+
 
 
 
