@@ -482,7 +482,16 @@ here i refers to interactive mode
 
 Example:
 PS C:\Users\Admin\Workspace\Git_Github> git rebase -i c0c13856030b880faa9575ce77eb39e3ccd6c74d
+
+after hitting the command you might receive an option of pick along with the commit-id's so if you want to squash it then you need to erase the pick word and then replace it with s and commit-id, and then once its done you will be inserted mode so :x and then a new page of options might display then type as commits merged and hit tab :x
 ```
+
+## **Merge conflicts and how to resolve them?**
+
+#### This is the site in order to [Know more about Git Merge](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Creating%20a%20merge%20conflict&text=Create%20a%20new%20directory%20named,the%20repo%20and%20commit%20it.)
+
+
+
 
 
 
