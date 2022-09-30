@@ -441,8 +441,48 @@ git reset --hard upstream
 #### Squashing allows you to combine multiple commits in your branch's history into a single commit. This can help keep your repository's history more readable and understandable.
 
 ```
-git 
+git add .; git commit -m "Changes made in README.md file"
+```
 
+## **Merging all commits into one single commit**
+
+```
+PS C:\Users\Admin\Workspace\Git_Github> git log
+commit 24ec5f0f3330707cde10846e4b49a6d7489cc6ba (HEAD -> master, origin/master, origin/feature)
+Author: Bhakti Vora <bhakti20150@gmail.com>
+PS C:\Users\Admin\Workspace\Git_Github> git log
+PS C:\Users\Admin\Workspace\Git_Github> git add .; git commit -m "Changes made in README.md file"
+[master c0c1385] Changes made in README.md file
+ 2 files changed, 7 insertions(+)
+ create mode 100644 sample.txt
+PS C:\Users\Admin\Workspace\Git_Github> git log
+commit c0c13856030b880faa9575ce77eb39e3ccd6c74d (HEAD -> master)
+Author: Bhakti Vora <bhakti20150@gmail.com>
+Date:   Fri Sep 30 13:44:40 2022 +0530
+
+    Changes made in README.md file
+
+commit 413e6348b13afd7918a695a7709f252b5ec7e797 (origin/master) 
+Author: Bhakti Vora <bhakti20150@gmail.com>
+Date:   Fri Sep 30 13:34:39 2022 +0530
+
+    Changes made in README.md file
+
+commit 24ec5f0f3330707cde10846e4b49a6d7489cc6ba (origin/feature)
+Author: Bhakti Vora <bhakti20150@gmail.com>
+Date:   Fri Sep 30 13:17:20 2022 +0530
+```
+#### **What is Git Rebase?**
+#### Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+
+```
+git rebase -i <commit-id>
+
+here i refers to interactive mode
+
+Example:
+PS C:\Users\Admin\Workspace\Git_Github> git rebase -i c0c13856030b880faa9575ce77eb39e3ccd6c74d
+```
 
 
 
