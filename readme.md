@@ -19,12 +19,17 @@ git -v
 ```
 git --help
 ```
-
 ##  **Initializing a Git Repository**
 #### Create an empty Git repository or reinitialize an existing one 
 
 ```
 git init
+```
+
+## **How to Create a README.MD file**
+
+```
+git add README.md
 ```
 ## **Making the first Change**
 #### Changes made in the project and are not currently saved or simply say Show the working tree status 
@@ -125,6 +130,48 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 #### Here the files are back to the previous changes done earlier. 
 
+## **Restoring a Deleted File**
+#### You can restore a file which was accidently deleted with the help of restore command. 
+
+```
+PS C:\Users\Admin\Workspace\Git_Github> git status
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)        
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names.txt
+```
+#### here in the above example you can see that a file is accidently deleted if you want to get it back you can use restore command. 
+
+```
+git restore <FileName>
+```
+#### Example
+```
+git restore names.txt
+```
+
+## **If you want to Remove a File**
+
+```
+git rm -rf <FileName>
+```
+
+```
+PS C:\Users\Admin\Workspace\Git_Github> git rm .\names.txt
+error: the following file has changes staged in the index:
+    names.txt
+(use --cached to keep the file, or -f to force removal)
+PS C:\Users\Admin\Workspace\Git_Github> git rm -rf .\names.txt
+rm 'names.txt'
+
+PS C:\Users\Admin\Workspace\Git_Github> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    names.txt
+        modified:   readme.md
+```
 ## **Stashing Changes**
 #### Whenever you work on something you want to save your changes without making any commit without making any history in a project and whenever i need that project or work i can get it back on my workspace. 
 
@@ -137,6 +184,71 @@ PS C:\Users\Admin\Workspace\Git_Github> git status
 On branch master
 nothing to commit, working tree clean
 ```
+
+## **Popping Stash**
+#### You want to get back all the previous stuff which was at backstage. 
+
+```
+git stash pop
+```
+#### **Other commands for Stash**
+
+```
+usage: git stash list [<options>]
+   or: git stash show [<options>] [<stash>]
+   or: git stash drop [-q|--quiet] [<stash>]
+   or: git stash ( pop | apply ) [--index] [-q|--quiet] [<stash>]
+   or: git stash branch <branchname> [<stash>]
+   or: git stash clear
+   or: git stash [push [-p|--patch] [-S|--staged] [-k|--[no-]keep-index] [-q|--quiet]
+                 [-u|--include-untracked] [-a|--all] [-m|--message <message>]        
+                 [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                 [--] [<pathspec>...]]
+   or: git stash save [-p|--patch] [-S|--staged] [-k|--[no-]keep-index] [-q|--quiet] 
+                 [-u|--include-untracked] [-a|--all] [<message>]
+```
+
+## **Clearing the Stash** 
+
+```
+git stash clear
+```
+
+## **Starting GitHub**
+#### Hosting our project on Github, and share it with other people through out the world. 
+#### Steps in order to create a new project and host it on Git
+
+1. Creating a new repo on Git
+2. Connecting Remote Repo to Local Repo or or push an existing repository from the command line
+
+```
+git remote add origin <url>
+
+Example:
+git remote add origin https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
+
+git: its a basic commands
+remote: working with url's 
+add: adding a new URL
+origin: Name of the url your going to add
+```
+
+```
+git remote -v
+
+PS C:\Users\Admin\Workspace\Git_Github> git remote -v
+origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (fetch)
+origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (push)
+
+which means it will display all the url which are attached to the project. 
+```
+3. Pushing local changes to remote repository.
+```
+git push origin <branch>
+git push origin 
+
+```
+
 
 
 
