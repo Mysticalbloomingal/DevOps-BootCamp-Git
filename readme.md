@@ -272,8 +272,32 @@ git branch <branch-name>
 
 Example:
 PS C:\Users\Admin\Workspace\Git_Github> git branch feature 
-```
 
+Here your already switched to branch name as "Feature"
+```
+## **Switch to Different Branch**
+#### If you want to toggle between the branches, you need to first save your workspace and then toggle or switch between the branches [ **Please commit your changes or stash them before you switch branches** ]
+
+
+#### **Example 1**
+``` 
+git checkout <branch-name>
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git checkout feature
+Switched to branch 'feature'
+```
+#### **Example 2**
+
+```
+git checkout <branch-name>
+
+Example:
+
+PS C:\Users\Admin\Workspace\Git_Github> git checkout master
+Switched to branch 'master'
+```
 
 
 
