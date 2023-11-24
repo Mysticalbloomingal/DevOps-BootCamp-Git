@@ -131,7 +131,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Here the files are back to the previous changes done earlier. 
 
 ## **Restoring a Deleted File**
-#### You can restore a file which was accidently deleted with the help of restore command. 
+#### You can restore a file that was accidentally deleted with the help of the restore command. 
 
 ```
 PS C:\Users\Admin\Workspace\Git_Github> git status
@@ -141,7 +141,7 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
         deleted:    names.txt
 ```
-#### here in the above example you can see that a file is accidently deleted if you want to get it back you can use restore command. 
+#### Here in the above example you can see that a file is accidently deleted if you want to get it back you can use restore command. 
 
 ```
 git restore <FileName>
@@ -186,7 +186,7 @@ nothing to commit, working tree clean
 ```
 
 ## **Popping Stash**
-#### You want to get back all the previous stuff which was at backstage. 
+#### You want to get back all the previous stuff which was backstage. 
 
 ```
 git stash pop
@@ -215,7 +215,7 @@ git stash clear
 ```
 
 ## **Starting GitHub**
-#### Hosting our project on Github, and share it with other people through out the world. 
+#### Hosting our project on Github, and sharing it with other people throughout the world. 
 #### Steps in order to create a new project and host it on Git
 
 1. **Creating a new repo on Git**
@@ -242,7 +242,7 @@ origin  https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git (push)
 
 which means it will display all the url which are attached to the project. 
 ```
-3. **Pushing local changes to remote repository.**
+3. **Pushing local changes to the remote repository.**
 #### push the commits in the local branch named master to the remote named origin
 ```
 git push origin <branch>
@@ -259,13 +259,13 @@ To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
  * [new branch]      master -> master
 ```
 ## **What are branches**
-#### A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+#### A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
 
 ## **Use of Branches**
-#### When your working on a new feature or resolving a bug always create a seperate branch. 
+#### When you working on a new feature or resolving a bug always create a separate branch. 
 #### **Note: You should never commit on a main branch**
 
-## **Making a new Branch and Swicthing to it (Learn Branching)**
+## **Making a new Branch and Switching to it (Learn Branching)**
 
 ```
 git branch <branch-name>
@@ -273,9 +273,9 @@ git branch <branch-name>
 Example:
 PS C:\Users\Admin\Workspace\Git_Github> git branch feature 
 
-Here your already switched to branch name as "Feature"
+Here you already switched to the branch name as "Feature"
 ```
-## **Switch to Different Branch**
+## **Switch to a Different Branch**
 #### If you want to toggle between the branches, you need to first save your workspace and then toggle or switch between the branches [ **Please commit your changes or stash them before you switch branches** ]
 
 
@@ -301,7 +301,7 @@ Switched to branch 'master'
 
 ## **Merging branch to main**
 
-#### Once your code and workstuff is finalized you can merge your code with other users so that everybody can access it
+#### Once your code and work stuff is finalized you can merge your code with other users so that everybody can access it
 
 ```
 git merge <branch-name>
@@ -329,7 +329,7 @@ To https://github.com/Mysticalbloomingal/DevOps-BootCamp-Git.git
 ```
 
 ## **Why Fork, and How to Fork?**
-#### Forking is a git clone operation executed on a server copy of a projects repo. A Forking Workflow is often used in conjunction with a Git hosting service like Bitbucket.
+#### Forking is a git clone operation executed on a server copy of a project's repo. A Forking Workflow is often used in conjunction with a Git hosting service like Bitbucket.
 
 ## **Cloning the Forked project to local**
 ```
