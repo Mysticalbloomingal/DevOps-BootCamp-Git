@@ -490,9 +490,7 @@ after hitting the command you might receive an option of pick along with the com
 
 #### This is the site in order to [Know more about Git Merge](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts#:~:text=Creating%20a%20merge%20conflict&text=Create%20a%20new%20directory%20named,the%20repo%20and%20commit%20it.)
 
----
 
-#### Creds: Referred from [Kunal Kushwaha Tutorials]
 
 
 
